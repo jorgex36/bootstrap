@@ -1,0 +1,21 @@
+
+body{
+margin-right: 2rem;
+margin-left: 2rem;
+background: rgb(80,50,0,0.8);
+background-size: 100vw;
+color: white;
+}
+header{
+min-height:20vh ;
+background: url(../imagen/top.png)no-repeat;
+background-position: center center;
+background-size: 100vw;
+}
+
+.btn-outline-dark{
+background: none !important;
+color:  rgb(250,150,0,0.8);
+}
+#comm{width: 4rem;}
+#redes{margin-top: 4rem;}
