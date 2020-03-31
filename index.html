@@ -17,9 +17,9 @@
         <label for="logo"></label>
       </div>
       <div class="col-lg-3 col-md-3 offset-lg-6 offset-md-6 text-center align-bottom" id="redes">
-        <a href="#" ><img src="imagen/fb.png"  alt=""></a>
-        <a href="#" ><img src="imagen/ig.png"  alt=""></a>
-        <a href="#" ><img src="imagen/tt.png"  alt=""></a>
+        <a href="#" ><img id="ic" src="imagen/fb.png"  alt=""></a>
+        <a href="#" ><img id="ic" src="imagen/ig.png"  alt=""></a>
+        <a href="#" ><img id="ic" src="imagen/tt.png"  alt=""></a>
       </div>
     </header>
     <nav class="navbar">
@@ -35,27 +35,32 @@
     <div class="row">
       <div class="col-lg-9 col-md-9">
           <div class="row">
-            <p class="col-lg-9 col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="col-lg-9 col-md-9">
+              <h5 class="text-right">SIGNATURE MODEL</h5>
+              <h6 class="text-justify">KIRK HAMMET </h6>
+              <p class="text-justify">Kirk Hammett is the lead guitarist for the biggest heavy metal band of all time: Metallica. Over the past thirty years Kirk and Metallica have single-handedly changed the face of music, sold more albums than any metal band in history, and continue to inspire new generations of musicians. Kirk’s solos are a crucial part of Metallica’s dominating sound, and he has relied on ESP for more than two decades to make him guitars that meet his every need.</p>
+            </div>
 
             <img src="imagen/gkirkh.jpg" alt="" class="col-lg-3 col-md-3 img-fluid" >
           </div>
-          <div class="input-group">
+          <div class="input-group" style="margin:1vw">
           <img src="imagen/commentario.jpg" class="col-lg-1 col-md-2 col-sm-4 col-xs-4" id="comm" alt="">
             <textarea class="form-control col-lg-11 col-md-10 col-sm-8 col-xs-8" name="name" rows="1" cols="150" placeholder="Ingrese su Comentario"></textarea></div>
 
           <div class="row">
-            <img src="imagen/gkirkh.jpg" alt="" class="col-lg-3 col-md-3 img-fluid" >
-            <p class="col-lg-9 col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <img src="imagen/zak.jpg" alt="" class="col-lg-3 col-md-3 img-fluid" >
+            <DIV class="col-lg-9 col-md-9">
+              <h5>SIGNATURE MODELS</h5>
+              <h6>ZAKK WYLDE</h6>
+              <p class="text-justify">Zakk Wylde (Jeffrey Phillip Wielandt) is an American musician, singer, songwriter, multi-instrumentalist and occasional actor. He is best known as the guitarist for Ozzy Osbourne, and founder of the heavy metal band Black Label Society. His signature bulls-eye design appears on many of his guitars and is widely recognized. He was the lead guitarist and vocalist in Pride & Glory, who released one self-titled album in 1994 before disbanding. As a solo artist he released Book of Shadows and Book of Shadows II. Check out www.zakkwylde.com</p>
+            </DIV>
           </div>
-          <div class="input-group">
+          <div class="input-group" style="margin:1vw">
           <img src="imagen/commentario.jpg" class="col-lg-1 col-md-2 col-sm-4 col-xs-4" id="comm" alt="">
             <textarea class="form-control col-lg-11 col-md-10 col-sm-8 col-xs-8" name="name" rows="1" cols="150" placeholder="Ingrese su Comentario"></textarea></div>
       </div>
       <div class="col-lg-3 col-md-3 d-none d-md-block">
-        <div class="input-group mb-3">
+        <div class="input-group mb-3" >
           <div class="input-group-prepend">
             <span class="input-group-text" id="basic-addon1"><svg
             xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -117,20 +122,21 @@
           <input type="search" class="form-control" placeholder="Que buscas?" aria-label="Username" aria-describedby="basic-addon1">
           <button type="submit" name="button">Buscar</button>
 
-          <div class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
-            <a href="#" class="alert-warning">PROXIMOS CONCIERTOS</a>
+
+          <div style="margin-Top:1vw" id="botones" class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
+            <a href="#" id="boton" class="warning">PROXIMOS CONCIERTOS</a>
           </div>
-          <div class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
-            <a href="#" class="alert-warning">NUEVOS DISCOS</a>
+          <div id="botones" class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
+            <a href="#" id="boton" class="warning">NUEVOS DISCOS</a>
           </div>
-          <div class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
-            <a href="#" class="alert-warning">NUEVOS SENCILLOS</a>
+          <div id="botones" class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
+            <a href="#" id="boton" class="warning">NUEVOS SENCILLOS</a>
           </div>
-          <div class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
-            <a href="#" class="alert-warning">NUEVOS SENCILLOS</a>
+          <div id="botones" class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning">
+            <a href="#" id="boton" class="warning">NUEVAS BANDAS</a>
           </div>
-          <div class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning ">
-            <a href="#" class="alert-warning">WEBS ALIADAS</a>
+          <div id="botones" class="col-lg-12 col-md-12 d-none d-md-block alert alert-warning ">
+            <a href="#" id="boton" class="warning">WEBS ALIADAS</a>
           </div>
 
 </div>
